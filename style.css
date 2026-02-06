@@ -48,7 +48,8 @@ main {
 .profile-info h1 {
   font-size: 24px;
   margin: 15px 0 5px 0;
-  color: hsl(0, 0%, 100%)
+  color: hsl(0, 0%, 100%);
+  /* font-weight: 700 */
 }
 
 
@@ -63,6 +64,7 @@ main {
   font-size: 14px;
   color: hsl(75, 94%, 57%);
   margin-bottom: 20px;
+  font-weight: 700
 }
 
 .social-links a {
@@ -84,11 +86,12 @@ main {
 }
 .attribution a {
   color: hsl(75, 94%, 57%);
-  text-decoration: none;
+    text-decoration: underline;
+
 }
 
 .attribution a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .attribution {
